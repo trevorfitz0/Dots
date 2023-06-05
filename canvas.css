@@ -1,0 +1,47 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Righteous', cursive;
+}
+
+canvas {
+    position: absolute;
+    border: 2px solid black;
+    background-color: #393646;
+}
+
+.title {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #F4EEE0;
+    font-size: 10vh;
+}
+
+.sliders {
+    position: absolute;
+    margin-top: 1vh;
+    margin-left: 1vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+#slider {
+    
+}
+
+.linebreak {
+    width: 150px;
+    height: .2vh;
+    background-color: #F4EEE0;
+}
